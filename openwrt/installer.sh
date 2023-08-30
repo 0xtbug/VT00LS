@@ -17,3 +17,4 @@ function installing(){
 	echo 'Installing Done...'
 	echo 'Please Check http://192.168.1.1/vt00ls'
 }
+installing
