@@ -1,4 +1,4 @@
-module("luci.controller.vt00ls",package.seeall)
+module("luci.controller.Vt00ls",package.seeall)
 function index()
-entry({"admin","services","vt00ls"},template("vt00ls"),_("VT00LS"),55).leaf=true
+entry({"admin","services","Vt00ls"},template("Vt00ls"),_("VT00LS"),55).leaf=true
 end
