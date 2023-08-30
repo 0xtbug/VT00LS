@@ -6,13 +6,11 @@ echo ' '
 echo '1. Installing VTOOLS Dashboard...'
 
 function installing(){
-	echo '1.1 Create directory....'
-	mkdir -p /www/vt00ls &> /dev/null
-	echo '1.2 Copying Files...'
-    mv ../js /www/vt00ls/
-    mv ../css /www/vt00ls/
-    mv ../lib /www/vt00ls/
-    mv ../index.html /www/vt00ls/
+	echo 'Copying Files...'
+    mv ../js /www/Vt00ls/
+    mv ../css /www/Vt00ls/
+    mv ../lib /www/Vt00ls/
+    mv ../index.html /www/Vt00ls/
 	mv ../openwrt/vt00ls.htm /usr/lib/lua/luci/view/
 	mv ../openwrt/vt00ls.lua /usr/lib/lua/luci/controller/
 	sleep 2
