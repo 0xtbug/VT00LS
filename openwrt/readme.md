@@ -3,7 +3,7 @@ Open terminal in openwrt
 ```
 cd /www
 git clone https://github.com/0xtbug/Vt00ls.git
-cd Vtools/openwrt
+cd Vt00ls/openwrt
 chmod +x installer.sh
 ./installer.sh
 ```
